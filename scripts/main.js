@@ -44,7 +44,7 @@ function new_line(){
   p.setAttribute("class", "path")
   p.textContent = "# user";
   span1.textContent = " in";
-  span2.textContent = " ~/heber-leonard";
+  span2.textContent = " ~/Sarah";
   p.appendChild(span1);
   p.appendChild(span2);
   app.appendChild(p);
@@ -79,18 +79,17 @@ async function getInputValue(){
   }
   else if(value === "projects"){
     trueValue(value);
-    createText("<a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>")
+    createText("<a href='https://github.com/Sarahh731' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>")
   }
   else if(value === "about me"){
     trueValue(value);
-    createText("Oi, meu nome é Héber ;)")
-    createText("Desenvolvedor atualmente focado em todo o ecossistema Javascript. Utilizando principalmente a stack <span class='blue'>Node, React e React Native </span>por permitir criar aplicações de forma descomplicada e produtiva.")
+    createText("Hola, Soy Sarah :D")
+    createText("Soy una Programadora de 21 años, sin mucho que hacer, se programar en <span class='blue'>Python </span>Gracias por interesarte en leer esto :3")
   }
   else if(value === "social -a"){
     trueValue(value);
-    createText("<a href='https://github.com/heberleonard2' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>")
-    createText("<a href='https://www.linkedin.com/in/heber-leonard/' target='_blank'><i class='fab fa-linkedin-in white'></i> linkedin.com/in/heber-leonard</a>")
-    createText("<a href='https://www.instagram.com/heber_leonard/' target='_blank'><i class='fab fa-instagram white'></i> instagram.com/heber_leonard</a>")
+    createText("<a href='https://github.com/Sarahh731' target='_blank'><i class='fab fa-github white'></i> github.com/Sarahh731</a>")
+    createText("<a href='' target='_blank'><i class='fab fa-discord white'></i> ∘°❉°∘ Sarah ∘°❉°∘#5994</a>")
   }
   else if(value === "social"){
     trueValue(value);
